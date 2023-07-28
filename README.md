@@ -40,6 +40,9 @@ enable Authenticating info in your ~/.m2/settings.xml file. Remember to replace 
   </servers>
 </settings>
 ```
+
+Check the Packages in oganization page. And click the com.freemusic.music-web-common and Follow the instruction
+
 Add the package dependencies to the dependencies element of your project pom.xml file, replacing com.example:test with your package.
 
 ```yaml
