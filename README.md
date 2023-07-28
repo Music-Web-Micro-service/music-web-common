@@ -1,7 +1,7 @@
 # Common package
 ## Prepareing
 Authenticating to GitHub Packages from Maven
-enable Authenticating info in your ~/.m2/settings.xml file. Remember to replace the **UserName** and **Token**. **UserName** is Your Acoount UserName, And **Token** is in Settings of your Account -> develop space -> access token classic -> generate
+enable Authenticating info in your ~/.m2/settings.xml file. Remember to replace the **UserName** and **Token**. **UserName** is Your Acoount UserName, And **Token** is in Settings of your Account -> developer settings -> token classic -> generate
 ```yaml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
