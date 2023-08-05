@@ -25,6 +25,6 @@ jobs:
         run: echo "${{ secrets.TOKEN }}" | gh auth login --with-token
 
       - name: Publish to GitHub Packages
-        run: mvn deploy -Dmaven.test.skip=true
+        run: mvn deploy -Dmaven.test.skip=true -DuniqueVersion=false
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
