@@ -23,6 +23,7 @@
         </repository>
     </distributionManagement>
     <properties>
+        <uniqueVersion>false</uniqueVersion>
         <java.version>17</java.version>
     </properties>
     <dependencies>
@@ -59,6 +60,10 @@
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
             </plugin>
         </plugins>
     </build>
