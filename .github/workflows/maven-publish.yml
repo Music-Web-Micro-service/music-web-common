@@ -18,8 +18,11 @@ jobs:
           java-version: 17
           distribution: 'adopt'
 
+      - name: permission mvnw
+        run: chmod +x ./mvnw
+        
       - name: Build with Maven
-        run: mvn clean package -B
+        run: ./mvnw clean package -B
 
       - name: Log in to GitHub Packages
         run: echo "${{ secrets.TOKEN }}" | gh auth login --with-token
