@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.freemusic</groupId>
     <artifactId>music-web-common</artifactId>
-    <version>0.0.1-RELEASE</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>music-web-common</name>
     <description>music-web-common</description>
     <packaging>jar</packaging>
@@ -19,7 +19,7 @@
         <repository>
             <id>github</id>
             <name>Music-Web-Micro-service</name>  <!-- 改 OWNER -->
-            <url>https://maven.pkg.github.com/Music-Web-Micro-service/music-web-common</url>  <!-- 改 OWNER、REPOSITORY -->
+            <url>https://maven.pkg.github.com/Sma1lboy/DemoA</url>  <!-- 改 OWNER、REPOSITORY -->
         </repository>
     </distributionManagement>
     <properties>
